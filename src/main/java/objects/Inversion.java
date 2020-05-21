@@ -9,7 +9,7 @@ package objects;
  *
  * @author MAXI
  */
-public class Inversion {
+public class Inversion extends Cuenta {
     
     private Integer cantidad;
 

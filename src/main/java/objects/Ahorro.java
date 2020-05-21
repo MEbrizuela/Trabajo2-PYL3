@@ -9,7 +9,7 @@ package objects;
  *
  * @author MAXI
  */
-public class Ahorro {
+public class Ahorro extends Cuenta {
     
     private Integer nroCuenta;
 

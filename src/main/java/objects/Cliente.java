@@ -5,6 +5,8 @@
  */
 package objects;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author MAXI
@@ -14,6 +16,8 @@ public class Cliente {
     private Integer dni;
     private String nombre;
     private String direccion;
+    
+    private ArrayList <Cuenta> cuenta;
 
     public Integer getDni() {
         return dni;
