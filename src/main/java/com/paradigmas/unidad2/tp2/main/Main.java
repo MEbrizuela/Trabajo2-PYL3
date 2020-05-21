@@ -10,5 +10,5 @@ package com.paradigmas.unidad2.tp2.main;
  * @author MAXI
  */
 public class Main {
-    
+   
 }

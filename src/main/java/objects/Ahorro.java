@@ -11,4 +11,19 @@ package objects;
  */
 public class Ahorro {
     
+    private Integer nroCuenta;
+
+    public Integer getNroCuenta() {
+        return nroCuenta;
+    }
+
+    public void setNroCuenta(Integer nroCuenta) {
+        this.nroCuenta = nroCuenta;
+    }
+ 
+    
+    public void ofrecerIntereses(){
+    
+    } 
+    
 }
