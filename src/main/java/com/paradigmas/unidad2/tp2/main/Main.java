@@ -5,10 +5,25 @@
  */
 package com.paradigmas.unidad2.tp2.main;
 
+import objects.Cliente;
+
 /**
  *
  * @author MAXI
  */
 public class Main {
    
+    public static void main (String[]args){
+    
+        Cliente cliente;
+        cliente = new Cliente();
+        
+        cliente.setDireccion("Av. Rio Talampaya");
+        cliente.setDni(37492452);
+        cliente.setNombre("Carlos Perez");
+        
+        System.out.println(cliente);
+        
+    }
+    
 }
